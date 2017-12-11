@@ -1,4 +1,4 @@
-function 问好(那谁) {
+function 问好(那谁: string) {
   return "吃了么, " + 那谁;
 }
 
