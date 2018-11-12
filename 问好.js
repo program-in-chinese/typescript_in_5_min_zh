@@ -1,4 +1,4 @@
-var 学生 = (function () {
+var 学生 = /** @class */ (function () {
     function 学生(姓, 名) {
         this.姓 = 姓;
         this.名 = 名;
@@ -11,3 +11,4 @@ function 问好(那谁) {
 }
 var 路人 = new 学生("大", "黄");
 document.body.innerHTML = 问好(路人);
+//# sourceMappingURL=问好.js.map
